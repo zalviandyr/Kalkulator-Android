@@ -7,4 +7,5 @@
     <color name="btnPressed">#949B9B</color>
     <color name="btnUnPressed">#4C4E52</color>
     <color name="btnUnPressed2">#747A81</color>
+    <color name="bg">#2E3434</color>
 </resources>
