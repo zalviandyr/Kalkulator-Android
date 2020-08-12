@@ -25,43 +25,49 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvCalculateAndResult = findViewById(R.id.tv_calculate_and_result);
 
         btnNumber0 = findViewById(R.id.btn_number_0);
-        btnNumber0.setOnClickListener(this);
         btnNumber1 = findViewById(R.id.btn_number_1);
-        btnNumber1.setOnClickListener(this);
         btnNumber2 = findViewById(R.id.btn_number_2);
-        btnNumber2.setOnClickListener(this);
         btnNumber3 = findViewById(R.id.btn_number_3);
-        btnNumber3.setOnClickListener(this);
         btnNumber4 = findViewById(R.id.btn_number_4);
-        btnNumber4.setOnClickListener(this);
         btnNumber5 = findViewById(R.id.btn_number_5);
-        btnNumber5.setOnClickListener(this);
         btnNumber6 = findViewById(R.id.btn_number_6);
-        btnNumber6.setOnClickListener(this);
         btnNumber7 = findViewById(R.id.btn_number_7);
-        btnNumber7.setOnClickListener(this);
         btnNumber8 = findViewById(R.id.btn_number_8);
-        btnNumber8.setOnClickListener(this);
         btnNumber9 = findViewById(R.id.btn_number_9);
-        btnNumber9.setOnClickListener(this);
 
         btnCSymbol = findViewById(R.id.btn_c_symbol);
-        btnCSymbol.setOnClickListener(this);
         btnTimeSymbol = findViewById(R.id.btn_time_symbol);
-        btnTimeSymbol.setOnClickListener(this);
         btnDivideSymbol = findViewById(R.id.btn_divide_symbol);
-        btnDivideSymbol.setOnClickListener(this);
         btnMinusSymbol = findViewById(R.id.btn_minus_symbol);
-        btnMinusSymbol.setOnClickListener(this);
         btnPlusSymbol = findViewById(R.id.btn_plus_symbol);
-        btnPlusSymbol.setOnClickListener(this);
 
         btnBackspace = findViewById(R.id.btn_backspace);
-        btnBackspace.setOnClickListener(this);
         btnDot = findViewById(R.id.btn_dot);
-        btnDot.setOnClickListener(this);
 
         btnEqualSymbol = findViewById(R.id.btn_equal_symbol);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        btnNumber0.setOnClickListener(this);
+        btnNumber1.setOnClickListener(this);
+        btnNumber2.setOnClickListener(this);
+        btnNumber3.setOnClickListener(this);
+        btnNumber4.setOnClickListener(this);
+        btnNumber5.setOnClickListener(this);
+        btnNumber6.setOnClickListener(this);
+        btnNumber7.setOnClickListener(this);
+        btnNumber8.setOnClickListener(this);
+        btnNumber9.setOnClickListener(this);
+        btnCSymbol.setOnClickListener(this);
+        btnTimeSymbol.setOnClickListener(this);
+        btnDivideSymbol.setOnClickListener(this);
+        btnMinusSymbol.setOnClickListener(this);
+        btnPlusSymbol.setOnClickListener(this);
+        btnBackspace.setOnClickListener(this);
+        btnDot.setOnClickListener(this);
         btnEqualSymbol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
