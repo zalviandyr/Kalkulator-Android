@@ -149,7 +149,6 @@
                 android:layout_weight="1"
                 android:text="@string/number_0" />
 
-
             <Button
                 android:id="@+id/btn_dot"
                 style="@style/Widget.App.Button"
